@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Ceník</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Předplatné Balet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <div class="container">
-      <h1>Naše nabídka</h1>
-      <div class="plans">
-        <div id="plan1" class="plan plan--selected">
-          <h2 class="plan__type">Základní</h2>
-          <p class="plan__price">5€ / měsíc</p>
+        <h1>Předplatné Balet</h1>
+        <div class="plans">
+            <div class="plan" data-plan-number="1">
+                <h2>Základní</h2>
+                <p>3 představení</p>
+                <button class="select-button">Vybrat</button>
+            </div>
+            <div class="plan" data-plan-number="2">
+                <h2>Střední</h2>
+                <p>6 představení</p>
+                <button class="select-button">Vybrat</button>
+            </div>
+            <div class="plan" data-plan-number="3">
+                <h2>Premium</h2>
+                <p>10 představení</p>
+                <button class="select-button">Vybrat</button>
+            </div>
         </div>
-        <div id="plan2" class="plan">
-          <h2 class="plan__type">Rozšířený</h2>
-          <p class="plan__price">10€ / měsíc</p>
-        </div>
-        <div id="plan3" class="plan">
-          <h2 class="plan__type">Mega</h2>
-          <p class="plan__price">20€ / měsíc</p>
-        </div>
-      </div>
     </div>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
